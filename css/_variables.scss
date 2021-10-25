@@ -1,1 +1,10 @@
-$light-gray: #fdfdfd;
+// colors
+$light-gray: #dfdfdf;
+$dark-gray: #333;
+$main-theme: #0190b1;
+$secondary-theme: #d4af37;
+
+// media query
+$small-width: 960px;
+$small-screens: "(max-width: #{$small-width})";
+$large-screens: "(min-width: #{$small-width+1})"

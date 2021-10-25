@@ -1,11 +1,64 @@
 @import "variables";
+@import "typography";
+@import "nav";
+@import "header";
+@import "utilities";
 
 body {
   background: $light-gray;
-  margin: 0;
+  @media #{$large-screens} {
+    max-width: 960px;
+    margin: 10px auto;
+  }
+  @media #{$small-screens} {
+    margin: 10px 5px;
+  }
 }
 
 #wrapper {
   padding: 10px;
   margin-top: 10px;
+}
+
+#content {
+  background: white;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+main, aside {
+  padding: 15px 15px 0 15px;
+}
+
+aside {
+  flex: 1;
+  @media #{$small-screens} {
+    flex: 100%;
+    order: 2;
+  }
+  ul {
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+  }
+}
+
+main {
+  flex: 3;
+  @media #{$small-screens} {
+    flex: 100%;
+    order: 1;
+  }
+  @media #{$large-screens} {
+    border-left: 1px solid $light-gray;
+  }
+
+  h2 {
+    margin: 0;
+  }
+}
+
+img {
+  display: block;
+  max-width: 100%;
 }

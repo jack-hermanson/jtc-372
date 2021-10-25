@@ -1,0 +1,14 @@
+@import "variables";
+
+header {
+  background: $main-theme;
+  color: white;
+  text-align: center;
+  h1 {
+    font-size: 3em;
+    @media #{$small-screens} {
+      font-size: 2em;
+    }
+    margin: 0;
+  }
+}
