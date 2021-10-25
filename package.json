@@ -1,0 +1,11 @@
+{
+  "name": "jtc-372",
+  "version": "1.0.0",
+  "description": "Jack's JTC-372 project",
+  "author": "Jack Hermanson <jack.hermanson@live.com>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "sass": "^1.43.3"
+  }
+}

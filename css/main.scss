@@ -1,0 +1,11 @@
+@import "variables";
+
+body {
+  background: $light-gray;
+  margin: 0;
+}
+
+#wrapper {
+  padding: 10px;
+  margin-top: 10px;
+}
