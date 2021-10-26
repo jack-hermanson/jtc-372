@@ -1,0 +1,13 @@
+@import "variables";
+
+footer {
+  background: $main-theme;
+  padding: 5px 0 2px 0;
+
+  p {
+    text-align: center;
+    display: block;
+    color: white;
+    margin: 0;
+  }
+}
