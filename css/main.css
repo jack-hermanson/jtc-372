@@ -11,7 +11,10 @@ body {
 
 aside h5 {
   font-size: 1.1em;
-  margin: 0;
+  margin: 0 0 6px 0;
+}
+aside li {
+  line-height: 1.5;
 }
 
 main h2 {
