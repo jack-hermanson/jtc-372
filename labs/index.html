@@ -1,78 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>CHHS Labs | All Labs</title>
-  <link rel="stylesheet" href="../css/main.css">
-  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CHHS Labs | All Labs</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+          integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 </head>
 <body>
 <div id="wrapper">
-  <header>
-    <h1>CHHS Computer Labs</h1>
-  </header>
-  <nav>
-    <ul>
-      <li>
-        <a href="../index.html"><i class="fas fa-home"></i> Home</a>
-      </li>
-      <li>
-        <a href="index.html"><i class="fas fa-desktop"></i> Labs</a>
-      </li>
-      <li>
-        <a href="#"><i class="fas fa-tasks"></i> Tutorials</a>
-      </li>
-      <li>
-        <a href="#"><i class="fas fa-envelope"></i> Contact</a>
-      </li>
-    </ul>
-  </nav>
-  <div id="content">
-    <aside>
-      <h5>Labs</h5>
-      <ul>
-        <li>
-          <a href="#">Education 220</a>
-        </li>
-        <li>
-          <a href="#">Gifford 317</a>
-        </li>
-        <li>
-          <a href="#">Moby B-219A</a>
-        </li>
-        <li>
-          <a href="#">Precon 200 & 201</a>
-        </li>
-        <li>
-          <a href="#">RDC 104</a>
-        </li>
-      </ul>
-    </aside>
-    <main>
-      <h2>About our Computer Labs</h2>
-      <p>
-        Students in the College of Health and Human Sciences pay a technology fee every semester.
-        This fee ensures that state-of-the-art hardware and software are available to those who need it, our labs are staffed, and improvements are constantly being made.
-        The tech fee is invested with the general oversight of the Dean’s Leadership Council of CHHS.
-      </p>
-      <a href="../images/rdc-plotter.jpg" target="_blank">
-        <img src="../images/rdc-plotter.jpg" alt="Large, gray HP InkJet Plotter printer on a white background" />
-      </a>
-      <div class="caption">The plotter is an advanced printer designed for posters, architectural floorplans, and interior design renderings.</div>
-      <p>
-        Each lab has at least one space that can be reserved by instructors for classroom usage. These spaces are designed to facilitate collaboration while modeling industry standards.
-        Whether your needs lie in construction, interior design, education, or dietary analysis, our labs have technology available to you that is representative of that found in the private sector.
-      </p>
+    <header>
+        <h1>CHHS Computer Labs</h1>
+    </header>
+    <nav>
+        <ul class="main-nav">
+            <li>
+                <a class="nav-link" href="index.html"><i class="fas fa-home"></i> Home</a>
+            </li>
+            <li>
+                <a class="nav-link" href="labs/index.html">
+                    <i class="fas fa-desktop"></i> Labs
+                </a>
+                <i data-target="#labs-dropdown" class="fas fa-caret-down dropdown-toggle text-white"></i>
+                <div class="dropdown-content" id="labs-dropdown">
+                    <ul>
+                        <li>
+                            <a href="#">Education</a>
+                        </li>
+                        <li>
+                            <a href="#">Gifford</a>
+                        </li>
+                        <li>
+                            <a href="#">Moby</a>
+                        </li>
+                        <li>
+                            <a href="#">Precon</a>
+                        </li>
+                        <li>
+                            <a href="#">RDC</a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <a class="nav-link" href="#"><i class="fas fa-tasks"></i> Tutorials</a>
+            </li>
+            <li>
+                <a class="nav-link" href="#"><i class="fas fa-envelope"></i> Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <div id="content">
+        <aside>
+            <h5>Labs</h5>
+            <ul>
+                <li>
+                    <a href="#">Education 220</a>
+                </li>
+                <li>
+                    <a href="#">Gifford 317</a>
+                </li>
+                <li>
+                    <a href="#">Moby B-219A</a>
+                </li>
+                <li>
+                    <a href="#">Precon 200 & 201</a>
+                </li>
+                <li>
+                    <a href="#">RDC 104</a>
+                </li>
+            </ul>
+        </aside>
+        <main>
+            <h2>About our Computer Labs</h2>
+            <p>
+                Students in the College of Health and Human Sciences pay a technology fee every semester.
+                This fee ensures that state-of-the-art hardware and software are available to those who need it, our
+                labs are staffed, and improvements are constantly being made.
+                The tech fee is invested with the general oversight of the Dean’s Leadership Council of CHHS.
+            </p>
+            <a href="../images/rdc-plotter.jpg" target="_blank">
+                <img src="../images/rdc-plotter.jpg" alt="Large, gray HP InkJet Plotter printer on a white background"/>
+            </a>
+            <div class="caption">The plotter is an advanced printer designed for posters, architectural floorplans, and
+                interior design renderings.
+            </div>
+            <p>
+                Each lab has at least one space that can be reserved by instructors for classroom usage. These spaces
+                are designed to facilitate collaboration while modeling industry standards.
+                Whether your needs lie in construction, interior design, education, or dietary analysis, our labs have
+                technology available to you that is representative of that found in the private sector.
+            </p>
 
-      <h4>Announcements</h4>
-      <p>The Gifford, Preconstruction Center, and Richardson Design Center labs are open for 24-hour access with a RamCard. All CHHS computer labs have a lab operator available 7:30am-8:30pm Monday through Friday, with varying hours on the weekend.</p>
-      <p>All labs, with the exception of Education 220, have remote access to computers. Please see <a href="#">here</a> for a list of remote-only computers accessible via Microsoft Remote Desktop.</p>
-    </main>
-  </div>
-  <footer>
-    <p>Copyright &copy; 2021, CHHS Computer Labs</p>
-  </footer>
+            <h4>Announcements</h4>
+            <p>The Gifford, Preconstruction Center, and Richardson Design Center labs are open for 24-hour access with a
+                RamCard. All CHHS computer labs have a lab operator available 7:30am-8:30pm Monday through Friday, with
+                varying hours on the weekend.</p>
+            <p>All labs, with the exception of Education 220, have remote access to computers. Please see <a href="#">here</a>
+                for a list of remote-only computers accessible via Microsoft Remote Desktop.</p>
+        </main>
+    </div>
+    <footer>
+        <p>Copyright &copy; 2021, CHHS Computer Labs</p>
+    </footer>
 </div>
+<script defer src="../scripts/dropdown.js"></script>
 </body>
 </html>
