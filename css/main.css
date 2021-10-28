@@ -26,33 +26,64 @@ main h2, main h4 {
 nav {
   background: #d4af37;
 }
-nav ul {
+nav ul.main-nav {
   list-style: none;
   margin: 0;
   padding: 5px 0;
   font-size: 1.2em;
-  text-transform: uppercase;
   display: flex;
   font-weight: bold;
   justify-content: space-evenly;
 }
 @media (max-width: 960px) {
-  nav ul {
+  nav ul.main-nav {
     font-size: 1em;
   }
 }
-nav ul a {
+nav ul.main-nav a.nav-link {
+  display: inline-flex;
+  text-transform: uppercase;
   color: white;
   text-decoration: none;
-  display: block;
-  line-height: 0.9;
+  line-height: 1;
   padding-bottom: 4px;
   padding-top: 4px;
   border-top: 2.5px solid transparent;
   border-bottom: 2.5px solid transparent;
+  align-items: baseline;
 }
-nav ul a:hover {
+nav ul.main-nav a.nav-link i {
+  margin-right: 4px;
+}
+nav ul.main-nav a.nav-link:hover {
   border-bottom: 2.5px solid white;
+}
+
+.dropdown-toggle:hover {
+  cursor: pointer;
+}
+
+.dropdown-content {
+  background: #0190b1;
+  display: none;
+  font-size: 0.9em;
+}
+.dropdown-content ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  position: relative;
+}
+.dropdown-content ul li {
+  padding: 2px;
+}
+.dropdown-content ul li a {
+  text-decoration: none;
+  color: white;
+}
+.dropdown-content ul li a:hover {
+  text-decoration: underline;
 }
 
 header {
@@ -151,6 +182,10 @@ main {
 img {
   display: block;
   max-width: 100%;
+}
+
+.text-white {
+  color: white;
 }
 
 /*# sourceMappingURL=main.css.map */

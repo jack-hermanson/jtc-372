@@ -2,7 +2,7 @@
 
 nav {
   background: $secondary-theme;
-  ul {
+  ul.main-nav {
     list-style: none;
     margin: 0;
     padding: 5px 0;
@@ -10,22 +10,54 @@ nav {
     @media #{$small-screens} {
       font-size: 1em;
     }
-    text-transform: uppercase;
     display: flex;
     font-weight: bold;
     justify-content: space-evenly;
 
-    a {
+    a.nav-link {
+      display: inline-flex;
+      text-transform: uppercase;
       color: white;
       text-decoration: none;
-      display: block;
-      line-height: 0.9;
+      line-height: 1;
       padding-bottom: 4px;
       padding-top: 4px;
       border-top: 2.5px solid transparent;
       border-bottom: 2.5px solid transparent;
+      align-items: baseline;
+      i {
+        margin-right: 4px;
+      }
       &:hover {
         border-bottom: 2.5px solid white;
+      }
+    }
+  }
+
+}
+
+.dropdown-toggle:hover {
+  cursor: pointer;
+}
+
+.dropdown-content {
+  background: $main-theme;
+  display: none;
+  font-size: 0.9em;
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    position: relative;
+    li {
+      padding: 2px;
+      a {
+        text-decoration: none;
+        color: white;
+        &:hover {
+          text-decoration: underline;
+        }
       }
     }
   }

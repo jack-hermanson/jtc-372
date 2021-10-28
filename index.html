@@ -13,18 +13,40 @@
             <h1>CHHS Computer Labs</h1>
         </header>
         <nav>
-            <ul>
+            <ul class="main-nav">
                 <li>
-                    <a href="index.html"><i class="fas fa-home"></i> Home</a>
+                    <a class="nav-link" href="index.html"><i class="fas fa-home"></i> Home</a>
                 </li>
                 <li>
-                    <a href="labs/index.html"><i class="fas fa-desktop"></i> Labs</a>
+                    <a class="nav-link" href="labs/index.html" >
+                        <i class="fas fa-desktop"></i> Labs
+                    </a>
+                    <i data-target="#labs-dropdown" class="fas fa-caret-down dropdown-toggle text-white"></i>
+                    <div class="dropdown-content" id="labs-dropdown">
+                        <ul>
+                            <li>
+                                <a href="#">Education</a>
+                            </li>
+                            <li>
+                                <a href="#">Gifford</a>
+                            </li>
+                            <li>
+                                <a href="#">Moby</a>
+                            </li>
+                            <li>
+                                <a href="#">Precon</a>
+                            </li>
+                            <li>
+                                <a href="#">RDC</a>
+                            </li>
+                        </ul>
+                    </div>
                 </li>
                 <li>
-                    <a href="#"><i class="fas fa-tasks"></i> Tutorials</a>
+                    <a class="nav-link" href="#"><i class="fas fa-tasks"></i> Tutorials</a>
                 </li>
                 <li>
-                    <a href="#"><i class="fas fa-envelope"></i> Contact</a>
+                    <a class="nav-link" href="#"><i class="fas fa-envelope"></i> Contact</a>
                 </li>
             </ul>
         </nav>
@@ -77,5 +99,6 @@
             <p>Copyright &copy; 2021, CHHS Computer Labs</p>
         </footer>
     </div>
+    <script defer src="./scripts/dropdown.js"></script>
 </body>
 </html>
