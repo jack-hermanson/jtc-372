@@ -29,3 +29,15 @@ main {
     line-height: 1.2;
   }
 }
+
+dl {
+  dt {
+    font-weight: bold;
+  }
+  dd {
+    margin-left: 0.5em;
+    &:not(last-of-type) {
+      margin-bottom: 0.5em;
+    }
+  }
+}
