@@ -41,3 +41,12 @@ dl {
     }
   }
 }
+
+span.badge {
+  font-size: 0.9em;
+  padding: 0.2em 0.2em 0 0.2em;
+  border-radius: 2px;
+  background-color: $main-theme;
+  color: white;
+  line-height: 1;
+}
