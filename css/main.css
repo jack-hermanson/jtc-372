@@ -74,16 +74,18 @@ nav ul.main-nav a.nav-link:hover {
 }
 
 .dropdown-content {
-  background: #0190b1;
   display: none;
   font-size: 0.9em;
+  position: relative;
+  z-index: 50;
 }
 .dropdown-content ul {
+  background: #0190b1;
+  position: absolute;
   list-style: none;
   margin: 0;
   padding: 0;
   display: inline-block;
-  position: relative;
 }
 .dropdown-content ul li {
   padding: 2px;
@@ -196,11 +198,6 @@ img {
 
 .text-white {
   color: white;
-}
-
-ul.unstyled {
-  list-style: none;
-  padding-left: 0;
 }
 
 /*# sourceMappingURL=main.css.map */

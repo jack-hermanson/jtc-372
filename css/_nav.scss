@@ -41,15 +41,18 @@ nav {
 }
 
 .dropdown-content {
-  background: $main-theme;
+
   display: none;
   font-size: 0.9em;
+  position: relative;
+  z-index: 50;
   ul {
+    background: $main-theme;
+    position: absolute;
     list-style: none;
     margin: 0;
     padding: 0;
     display: inline-block;
-    position: relative;
     li {
       padding: 2px;
       a {
