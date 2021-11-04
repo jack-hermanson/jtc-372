@@ -1,0 +1,36 @@
+@import "variables";
+
+form {
+  fieldset {
+    border: 1px solid $light-gray;
+    border-radius: 2px;
+    margin: 0;
+  }
+
+  label.required {
+    &:after {
+      content: " *";
+      color: red;
+    }
+  }
+
+  input[type=text], textarea {
+    padding: 4px;
+    border-radius: 2px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid $light-gray;
+  }
+
+  button[type=submit] {
+    background-color: $main-theme;
+    color: white;
+    padding: 8px;
+    border-radius: 2px;
+    outline: none;
+    border: none;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}

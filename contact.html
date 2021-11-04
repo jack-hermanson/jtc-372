@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CHHS Labs | Welcome</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body>
+<div id="wrapper">
+    <header>
+        <h1>CHHS Computer Labs</h1>
+    </header>
+    <nav>
+        <ul class="main-nav">
+            <li>
+                <a class="nav-link" href="index.html"><i class="fas fa-home"></i> Home</a>
+            </li>
+            <li>
+                <a class="nav-link" href="labs/index.html" >
+                    <i class="fas fa-desktop"></i> Labs
+                </a>
+                <i data-target="#labs-dropdown" class="fas fa-caret-down dropdown-toggle text-white"></i>
+                <div class="dropdown-content" id="labs-dropdown">
+                    <ul>
+                        <li>
+                            <a href="labs/education.html">Education</a>
+                        </li>
+                        <li>
+                            <a href="labs/gifford.html">Gifford</a>
+                        </li>
+                        <li>
+                            <a href="#">Moby</a>
+                        </li>
+                        <li>
+                            <a href="#">Precon</a>
+                        </li>
+                        <li>
+                            <a href="#">RDC</a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <a class="nav-link" href="#"><i class="fas fa-tasks"></i> Tutorials</a>
+            </li>
+            <li>
+                <a class="nav-link" href="contact.html"><i class="fas fa-envelope"></i> Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <div id="content">
+        <aside>
+            <h5>Recent Messages</h5>
+            <ul>
+                <li>
+                    <p class="mb-0">Jack was so helpful in the RDC lab. Thank you!</p>
+                    <p class="small text-gray mt-0">We're glad to hear that!</p>
+                </li>
+                <li>
+                    <p class="mb-0">The precon black and white printer was out of paper this morning.</p>
+                    <p class="small text-gray mt-0">Sorry about that. The printer has been refilled.</p>
+                </li>
+                <li>
+                    <p class="mb-0">Could we get a photo printer in one of the labs?
+                        The regular printers don't really print artwork correctly.</p>
+                    <p class="small text-gray mt-0">Thanks for your feedback! We'll bring this up with the tech fee committee.</p>
+                </li>
+            </ul>
+        </aside>
+        <main>
+            <h2>We'd Like to Hear from You</h2>
+            <p>
+                If you have any questions, feedback, or general comments, please send them our way.
+                We'll get back to you as soon as possible.
+            </p>
+            <form action="#" class="mb-3">
+                <fieldset class="mb-3">
+                    <legend>Your Information</legend>
+
+                    <label class="block required" for="first-name">First Name</label>
+                    <input class="mb-2" required id="first-name" type="text" />
+
+                    <label class="block" for="last-name">Last Name</label>
+                    <input class="mb-2" id="last-name" type="text" />
+
+                    <label class="block required" for="email">Email</label>
+                    <input required id="email" type="text" />
+                </fieldset>
+
+                <fieldset class="mb-3">
+                    <legend>Your Message</legend>
+
+                    <label class="block required" for="message">Message</label>
+                    <textarea class="mb-2" id="message" rows="3"></textarea>
+
+                    <div class="block">
+                        <input type="checkbox" id="response-requested" />
+                        <label for="response-requested">I would like a response</label>
+                    </div>
+
+                    <div class="block">
+                        <input type="checkbox" id="can-publish" />
+                        <label for="can-publish">You can publish my message</label>
+                    </div>
+                </fieldset>
+
+                <button type="submit">Submit</button>
+            </form>
+        </main>
+    </div>
+    <footer>
+        <p>Copyright &copy; 2021, CHHS Computer Labs</p>
+    </footer>
+</div>
+<script defer src="./scripts/dropdown.js"></script>
+</body>
+</html>
