@@ -4,7 +4,7 @@ body {
 }
 
 .caption {
-  font-size: 0.8em;
+  font-size: 0.875em;
   color: #333;
   line-height: 1.2;
   margin-top: 8px;
@@ -43,7 +43,7 @@ span.badge {
 }
 
 .small {
-  font-size: 0.9em;
+  font-size: 0.875em;
 }
 
 .text-gray {
