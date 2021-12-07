@@ -6,7 +6,6 @@ body {
 }
 
 .caption {
-  font-size: 0.875em;
   color: $dark-gray;
   line-height: 1.2;
   margin-top: 8px;
@@ -53,6 +52,7 @@ span.badge {
 
 .small {
   font-size: 1em;
+  font-style: italic;
 }
 
 .text-gray {
