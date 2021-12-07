@@ -2,10 +2,69 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CHHS Labs | Tutorials</title>
+    <link rel="stylesheet" href="../css/main.css">
     <link rel="icon" type="image/x-icon" href="../favicon.ico">
 </head>
 <body>
-
+<div id="wrapper">
+    <a href="../index.html">
+        <header>
+            <img src="../images/logo.svg" alt="CHHS Labs Logo">
+            <h1>CHHS Computer Labs</h1>
+        </header>
+    </a>
+    <nav>
+        <ul class="main-nav">
+            <li>
+                <a class="nav-link" href="../index.html">Home</a>
+            </li>
+            <li>
+                <a class="nav-link" href="index.html">
+                    Labs
+                </a>
+                <span data-target="#labs-dropdown" class="dropdown-toggle text-white">&#x25BC;</span>
+                <div class="dropdown-content" id="labs-dropdown">
+                    <ul>
+                        <li>
+                            <a href="../labs/education.html">Education</a>
+                        </li>
+                        <li>
+                            <a href="../labs/gifford.html">Gifford</a>
+                        </li>
+                        <li>
+                            <a href="../labs/moby.html">Moby</a>
+                        </li>
+                        <li>
+                            <a href="../labs/precon.html">Precon</a>
+                        </li>
+                        <li>
+                            <a href="../labs/rdc.html">RDC</a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <a class="nav-link" href="index.html">Tutorials</a>
+            </li>
+            <li>
+                <a class="nav-link" href="../contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <div id="content">
+        <aside>
+            <h5>Articles</h5>
+        </aside>
+        <main>
+            <h2>Tutorials</h2>
+        </main>
+    </div>
+    <footer>
+        <p>Copyright &copy; 2021, CHHS Computer Labs</p>
+    </footer>
+</div>
+<script defer src="../scripts/dropdown.js"></script>
 </body>
 </html>
