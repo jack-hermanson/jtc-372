@@ -43,7 +43,7 @@ span.badge {
 }
 
 .small {
-  font-size: 0.875em;
+  font-size: 1em;
 }
 
 .text-gray {
@@ -86,10 +86,6 @@ nav ul.main-nav a.nav-link:hover {
   border-bottom: 2.5px solid white;
 }
 
-.dropdown-toggle:hover {
-  cursor: pointer;
-}
-
 .dropdown-content {
   display: none;
   font-size: 0.9em;
@@ -129,7 +125,7 @@ header h1 {
 }
 @media (max-width: 960px) {
   header h1 {
-    font-size: 2em;
+    font-size: 1.6em;
   }
 }
 header img {
@@ -140,7 +136,7 @@ header img {
 }
 @media (max-width: 960px) {
   header img {
-    max-height: 2em;
+    max-height: 1.6em;
     margin-right: 0.5em;
   }
 }

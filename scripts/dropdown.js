@@ -10,12 +10,10 @@ for (let toggleElement of dropdownToggles) {
     toggleElement.addEventListener("click", () => {
         if (targetElement.style.display === "none") {
             targetElement.style.display = "block";
-            toggleElement.classList.remove("fa-caret-down");
-            toggleElement.classList.add("fa-caret-up");
+            toggleElement.innerHTML = "&#x25B2;";
         } else {
             targetElement.style.display = "none";
-            toggleElement.classList.remove("fa-caret-up");
-            toggleElement.classList.add("fa-caret-down");
+            toggleElement.innerHTML = "&#x25BC;";
         }
     });
 }
