@@ -209,6 +209,30 @@ form button[type=submit]:hover {
   cursor: pointer;
 }
 
+#tutorial .tutorial-item {
+  margin-bottom: 1em;
+  padding-bottom: 1em;
+  display: flex;
+  border-bottom: 1px solid #dfdfdf;
+}
+#tutorial .tutorial-item img {
+  float: right;
+  max-width: 300px;
+  margin-left: 1em;
+}
+@media (max-width: 960px) {
+  #tutorial .tutorial-item img {
+    float: none;
+    max-width: 80%;
+    margin-left: 0;
+  }
+}
+@media (max-width: 960px) {
+  #tutorial .tutorial-item {
+    display: block;
+  }
+}
+
 body {
   background: #dfdfdf;
 }
