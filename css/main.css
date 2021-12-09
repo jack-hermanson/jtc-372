@@ -129,6 +129,7 @@ header h1 {
   }
 }
 header img {
+  width: auto;
   max-height: 3em;
   margin-top: auto;
   margin-bottom: auto;
@@ -295,7 +296,8 @@ main {
 
 img {
   display: block;
-  max-width: 100%;
+  width: 100%;
+  height: auto;
 }
 
 .text-white {
